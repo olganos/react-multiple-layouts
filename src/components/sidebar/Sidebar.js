@@ -26,6 +26,13 @@ const Sidebar = () => {
                         <NavLink to="/page6">
                             Page 6
                         </NavLink>
+                        <ul className="no-bullets nested-list">
+                            <li>
+                                <NavLink to="/page6/subpage">
+                                    Subpage
+                                </NavLink>
+                            </li>
+                        </ul>
                     </li>
                 </ul>
             </nav>

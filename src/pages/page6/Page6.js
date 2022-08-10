@@ -1,3 +1,5 @@
+import { Outlet } from "react-router-dom";
+
 function Page6() {
     return (
         <>
@@ -5,6 +7,7 @@ function Page6() {
             <p>
                 The page number 6 content
             </p>
+            <Outlet />
         </>
     );
 }

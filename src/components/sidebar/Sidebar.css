@@ -9,6 +9,10 @@ li {
     margin: 0;
 }
 
+.nested-list li {
+    padding: 10px 0px 10px 30px;
+}
+
 aside a {
     color: black;
 }
