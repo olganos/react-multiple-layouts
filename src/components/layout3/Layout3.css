@@ -1,0 +1,14 @@
+.layout3Wrapper {
+  display: flex;
+  flex-grow: 1;
+  background: antiquewhite;
+}
+
+aside {
+  width: 200px;
+}
+
+main {
+  flex-grow: 1;
+  background: aliceblue;
+}

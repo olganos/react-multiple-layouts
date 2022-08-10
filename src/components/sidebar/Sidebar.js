@@ -17,6 +17,16 @@ const Sidebar = () => {
                             Page 4
                         </NavLink>
                     </li>
+                    <li>
+                        <NavLink to="/page5">
+                            Page 5
+                        </NavLink>
+                    </li>
+                    <li>
+                        <NavLink to="/page6">
+                            Page 6
+                        </NavLink>
+                    </li>
                 </ul>
             </nav>
         </aside>
