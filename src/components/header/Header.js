@@ -8,7 +8,7 @@ function Header () {
             <img src={logo} className="App-logo" alt="logo" />
             <nav>
                 <NavLink
-                    to="/page1"
+                    to="/"
                 >
                     Page 1
                 </NavLink>
