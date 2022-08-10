@@ -5,10 +5,14 @@ ul.no-bullets {
 }
 
 li {
-    padding: 0;
+    padding: 0px 0px 10px 0px;
     margin: 0;
 }
 
 aside a {
     color: black;
+}
+
+aside a.active {
+    color: rgb(231, 29, 29);
 }

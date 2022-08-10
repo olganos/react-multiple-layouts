@@ -1,29 +1,29 @@
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import logo from './../../logo.svg';
 import './Header.css';
 
-function Header() {
+function Header () {
     return (
         <header className="App-header">
             <img src={logo} className="App-logo" alt="logo" />
             <nav>
-                <Link
+                <NavLink
                     to="/page1"
                 >
                     Page 1
-                </Link>
+                </NavLink>
                 |
-                <Link
+                <NavLink
                     to="/page2"
                 >
                     Page 2
-                </Link>
+                </NavLink>
                 |
-                <Link
+                <NavLink
                     to="/page3"
                 >
                     Page 3
-                </Link>
+                </NavLink>
             </nav>
         </header>
     );

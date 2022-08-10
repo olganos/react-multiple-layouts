@@ -29,6 +29,10 @@
   color: #61dafb;
 }
 
+.App-header a.active {
+  color: #ffffff;
+}
+
 .App-header nav {
   display: flex;
   align-self: center;

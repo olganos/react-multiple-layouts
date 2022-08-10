@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 import './Sidebar.css';
 
@@ -8,14 +8,14 @@ const Sidebar = () => {
             <nav>
                 <ul className="no-bullets">
                     <li>
-                        <Link to="/page3">
+                        <NavLink to="/page3">
                             Page 3
-                        </Link>
+                        </NavLink>
                     </li>
                     <li>
-                        <Link to="/page4">
+                        <NavLink to="/page4">
                             Page 4
-                        </Link>
+                        </NavLink>
                     </li>
                 </ul>
             </nav>
